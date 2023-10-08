@@ -1,0 +1,27 @@
+{
+  "name": "whos-that-pokemon",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.17",
+    "@headlessui/vue": "^1.7.14",
+    "@heroicons/vue": "^2.0.18",
+    "@rollup/plugin-graphql": "^2.0.3",
+    "@vue/apollo-composable": "^4.0.0-beta.8",
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.9"
+  }
+}

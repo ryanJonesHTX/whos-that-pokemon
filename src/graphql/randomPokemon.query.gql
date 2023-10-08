@@ -1,0 +1,8 @@
+query GetPokemon($dexIds: [Int!]) {
+  species: pokemon_v2_pokemonspecies(where: { id: { _in: $dexIds } }) {
+    name
+    generation: pokemon_v2_generation {
+      name
+    }
+  }
+}
